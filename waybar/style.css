@@ -57,8 +57,7 @@ button:hover {
 }
 
 #clock,
-#cpu,
-#memory,
+#battery,
 #network,
 #pulseaudio {
   padding: 0 10px;

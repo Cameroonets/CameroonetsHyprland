@@ -13,9 +13,10 @@
     "modules-right": [
     "hyprland/language",
     "pulseaudio",
-    "cpu",
-    "memory",
+    "battery",
     "network",
+    "custom/terminal",
+    "custom/browser",
     "custom/exit"
     ],
        "hyprland/window": {
@@ -30,7 +31,7 @@
       "format": "{icon}",
       "on-click": "activate",
       "format-icons": {
-        "active": " "
+        "active": " 󰣇 "
       },
       "sort-by-number": true,
       "persistent-workspaces": {
@@ -39,7 +40,7 @@
       }
     },
     "clock": {
-      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+      "format": "{:%I:%M %p}", 
       "format-alt": "{:%Y-%m-%d}"
     },
     "cpu": {
@@ -93,8 +94,18 @@
       "on-click": "pavucontrol"
     },
     "custom/exit": {
-        "format": "",
+        "format": "  ",
         "on-click": "wlogout",
         "tooltip": false
-    }
+    },
+    "custom/terminal": {
+        "format": "  ",
+        "on-click": "kitty",
+        "tooltip": false
+    },
+    "custom/browser": {
+        "format": " 󰈹 ",
+        "on-click": "firefox",
+        "tooltip": false
+    },
 }
