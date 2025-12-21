@@ -15,11 +15,10 @@
     "shell",
     "de",
     "wm",
-    "icons",
     "terminal",
     "cpu",
     "memory",
-    "break",
-    "colors"
+    "uptime",
+    "break"
   ]
 }
