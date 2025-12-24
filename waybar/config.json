@@ -1,9 +1,9 @@
 {
   "position": "top",
-    "margin-top" : 2,
-    "margin-left": 4,
-    "margin-right": 4,
-    "height" : 24,
+    "margin-top" : 3,
+    "margin-left": 6,
+    "margin-right": 6,
+    "height" : 28,
     "modules-left": [
       "hyprland/workspaces"
     ],
@@ -16,6 +16,7 @@
     "battery",
     "network",
     "custom/terminal",
+    "custom/thunar",
     "custom/browser",
     "custom/exit"
     ],
@@ -108,4 +109,9 @@
         "on-click": "firefox",
         "tooltip": false
     },
+    "custom/thunar": {
+        "format": "  ",
+        "on-click": "thunar",
+        "tooltip": false
+    }, 
 }

@@ -1,5 +1,5 @@
 window {
-  background-color: #404040;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 * {
@@ -12,7 +12,7 @@ window {
 }
 
 #input {
-  background-color: #404040;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #b4b4b4;
   outline: none;
   box-shadow: none;
@@ -36,7 +36,7 @@ window {
 }
 
 #entry:selected {
-  background-color: #ababab;
+  background-color: rgba(255, 255, 255, 0.6);
   outline: none;
 }
 
