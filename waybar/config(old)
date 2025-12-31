@@ -1,0 +1,48 @@
+        {
+            "layer": "top",
+            "position": "top",
+            "modules-left": ["hyprland/workspaces", "hyprland/window"],
+            "modules-center": ["clock"],
+            "modules-right": ["network", "pulseaudio", "battery", "tray", "custom/power"],
+
+            "hyprland/workspaces": {
+                "format": "{icon}",
+                "format-icons": {
+                    "active": "",
+                    "default": ""
+                },
+                "on-click": "activate"
+            },
+            "hyprland/window": {
+                "format": "<span>{}</span>"
+            },
+            "clock": {
+                "format": "  {:%d.%m.%Y %H:%M}",
+                "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+            },
+            "pulseaudio": {
+                "format": "{icon} {volume}%",
+                "format-muted": "🔇 {volume}%",
+                "format-icons": {
+                    "default": ["", "", ""]
+                },
+                "on-click": "pavucontrol"
+            },
+            "network": {
+                "format-wifi": " {essid} ({signalStrength}%)",
+                "format-ethernet": " {ifname}",
+                "format-linked": " {ifname} (No IP)",
+                "format-disconnected": " Отключено",
+                "tooltip-format-wifi": "SSID: {essid}\nСкорость: {bandwidthTotalBytes}",
+                "tooltip-format-ethernet": "IP: {ipaddr}\nСкорость: {bandwidthTotalBytes}"
+            },
+            "tray": {
+                "icon-size": 21,
+                "spacing": 10
+            },
+            "custom/power": {
+                "format": "⏻",
+                "on-click": "wlogout",
+                "tooltip": "Выход / Выключение"
+            }
+        }
