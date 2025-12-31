@@ -5,12 +5,14 @@
     "margin-right": 6,
     "height" : 29,
     "modules-left": [
-      "hyprland/workspaces"
+      "hyprland/workspaces",
+      "tray"
     ],
     "modules-center": [
 	"clock"
     ],
     "modules-right": [
+    "hyprland/window",
     "hyprland/language",
     "pulseaudio",
     "battery",
@@ -38,7 +40,11 @@
       "persistent-workspaces": {
         "*": 5,
         "HDMI-A-1": 5
-      }
+      },
+    "tray": {
+      "icon-size": 22,
+      "spacing": 20
+      },
     },
     "clock": {
       "format": "{:%I:%M %p}", 
@@ -57,7 +63,8 @@
       "tooltip-format": "{ifname} via {gwaddr} ",
       "format-linked": "{ifname} (No IP) ",
       "format-disconnected": " ⚠ ",
-      "format-alt": "{ifname}: {ipaddr}/{cidr}"
+      "format-alt": "{ifname}: {ipaddr}/{cidr}",
+      "on-click": "kitty -e nmtui"
     },
     "battery": {
       "states": {
@@ -93,6 +100,10 @@
         "default": ["", "", ""]
       },
       "on-click": "pavucontrol"
+    },
+    "hyprland/window": {
+        "format": {},
+        "max-length": 12,
     },
     "custom/exit": {
         "format": "  ",
