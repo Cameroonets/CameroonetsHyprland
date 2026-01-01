@@ -9,7 +9,7 @@ cp -r hypr waybar wofi wlogout kitty fish fastfetch ~/.config/
 
 нужные пакеты
 ````
-sudo pacman -S wofi kitty freetype2 fish git hyprlock hyprpaper waybar ttf-font-awesome otf-font-awesome ttf-jetbrains-mono pavucontrol feh ranger thunar meson nwg-look papirus-icon-theme fastfetch file powerline-fonts inetutils ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-dejavu bluez bluez-utils blueman telegram-desktop vlc fastfetch nerd-fonts grim slurp pipewire font-manager
+sudo pacman -S wofi kitty freetype2 fish git hyprlock hyprpaper waybar ttf-font-awesome otf-font-awesome ttf-jetbrains-mono pavucontrol feh ranger thunar meson nwg-look papirus-icon-theme fastfetch file powerline-fonts inetutils ttf-font-awesome otf-font-awesome ttf-jetbrains-mono ttf-dejavu bluez bluez-utils blueman telegram-desktop vlc fastfetch nerd-fonts grim slurp pipewire font-manager swaybg
 ````
 ttf-nerd-fonts-symbols ttf-nerd-symbols-mono что то из этого я хуй знает
 ````
@@ -20,3 +20,7 @@ makepkg -si
 ````
 yay -S hyprshot wlogout hyprlock-git
 ````
+
+````
+#ПРОСТО ВАЖНЫЕ ПАКЕТЫ ДЛЯ МЕНЯ НЕ СМОТРЕТЬ СЮДА!!!!!!!!!!!!
+sudo pacman -S discord steam libreoffice-still libreoffice-still-ru telegram-desktop
