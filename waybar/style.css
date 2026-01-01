@@ -2,7 +2,7 @@
 
 * {
   font-family: "Nerd Fonts", Roboto, Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 window#waybar {
@@ -34,15 +34,15 @@ button:hover {
 
 #tray {
   background: rgba(86, 44, 105, 0.7);
-  padding: 0 10px 0 5px;
+  padding: 0 5px 0 5px;
   border-radius: 15px 50px;
 }
 
 #window {
-  background: rgba(86, 44, 105, 0.7);
-  padding: 0 10px 0 5px;
+  background: rgba(0, 0, 0, 0);
+  padding: 0 5px 0 5px;
   margin: 0 15px 0 15px;
-  border-radius: 50px 15px;
+  border-radius: 15px 50px;
 }
 
 #workspaces {
@@ -198,11 +198,11 @@ button:hover {
   border-radius: 0px;
 }
 .modules-right {
-  padding: 0 15px 0 0;
+  padding: 0 5px 0 0;
 }
 
 .modules-left {
-  padding: 0 0px 0 15px;
+  padding: 0 0px 0 5px;
 }
 
 .modules-center {
