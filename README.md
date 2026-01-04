@@ -6,7 +6,7 @@ currently working on it and im dolboyob so dont use it ok
 ````
 git clone https://github.com/Cameroonets/CameroonetsHyprland.git
 cd CameroonetsHyprland
-cp -r hypr waybar wofi wlogout kitty fish fastfetch ~/.config/
+cp -r hypr waybar wofi wlogout kitty fish fastfetch swaync ~/.config/
 ````
 
 нужные пакеты
