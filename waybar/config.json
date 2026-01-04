@@ -10,7 +10,8 @@
       "hyprland/window"
     ],
     "modules-center": [
-	"clock"
+	"clock",
+	"custom/swaync"
     ],
     "modules-right": [
     "hyprland/language",
@@ -130,5 +131,10 @@
         "format": " ",
         "on-click": "thunar",
         "tooltip": false
-    }, 
+    },
+    "custom/swaync": {
+        "format": "",
+	"on-click": "swaync-client -t -sw",
+        "tooltip": false
+    },
 }
