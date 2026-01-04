@@ -1,4 +1,4 @@
-@import "colors.css";
+@import "macchiato.css";
 
 * {
   font-family: "Noto Sans", "JetBrainsMono Nerd Font", "Font Awesome 6 Free";
@@ -6,8 +6,8 @@
 }
 
 window#waybar {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.85);
+  color: @text;
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 10px;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -33,7 +33,7 @@ button:hover {
 }
 
 #tray {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   padding: 0 5px 0 5px;
   border-radius: 15px 50px;
 }
@@ -46,7 +46,7 @@ button:hover {
 }
 
 #workspaces {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   padding: 0 10px 0 5px;
   border-radius: 15px 50px;
 }
@@ -73,7 +73,7 @@ button:hover {
 }
 
 #language {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   margin: 0 1px 0 1px;
   padding: 0 15px 0 15px;
   border-radius: 50px 15px;
@@ -94,7 +94,7 @@ button:hover {
 #network,
 
 #pulseaudio {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   padding: 0 15px 0 15px;
   margin: 0 5px 0 5px;
   border-radius: 50px 15px;
@@ -107,10 +107,11 @@ button:hover {
 }
 
 #custom-exit {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   margin: 0 3px 0 3px;
+  padding: 0 3px 0 3px;
   min-width: 20px;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: all 0.3s ease;
 }
 
@@ -119,8 +120,9 @@ button:hover {
 }
 
 #custom-browser {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   margin: 0 3px 0 3px;
+  padding: 0 3px 0 3px;
   min-width: 20px;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -131,8 +133,9 @@ button:hover {
 }
 
 #custom-thunar {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   margin: 0 3px 0 3px;
+  padding: 0 3px 0 3px;
   min-width: 20px;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -143,8 +146,9 @@ button:hover {
 }
 
 #custom-terminal {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   margin: 0 3px 0 3px;
+  padding: 0 3px 0 3px;
   min-width: 20px;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -155,7 +159,7 @@ button:hover {
 }
 
 #custom-swaync {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   margin: 0 2px 0 2px;
   min-width: 20px;
 /*  padding: 0 6px 0 6px; */
@@ -168,7 +172,7 @@ button:hover {
 }
 
 #network {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   padding: 0 15px 0 15px;
   margin: 0 2px 0 2px;
   border-radius: 50px 15px;
@@ -181,7 +185,7 @@ button:hover {
 }
 
 #clock {
-  background: rgba(86, 44, 105, 0.7);
+  background: @surface1;
   padding: 0 15px 0 15px;
   border-radius: 8px;
   color: @white;
@@ -208,7 +212,7 @@ button:hover {
 .modules-left,
 .modules-center {
   background-color: rgba(0, 0, 0, 0.0);
-  border-radius: 0px;
+  border-radius: 10px;
 }
 .modules-right {
   padding: 0 5px 0 0;
@@ -244,5 +248,5 @@ label:focus {
 }
 
 #pulseaudio.muted {
-  color: @lavender;
+  color: @surface1;
 }

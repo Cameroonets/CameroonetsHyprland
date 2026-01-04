@@ -41,7 +41,7 @@
         "5": "",
         "active": "",
 	"urgent": "",
-	"default": "",
+	"default": "",
       },
       "on-click": "activate",
       "sort-by-number": true,
