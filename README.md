@@ -9,7 +9,7 @@ cp -r hypr waybar wofi wlogout kitty fish fastfetch ~/.config/
 
 нужные пакеты
 ````
-sudo pacman -S wofi kitty brightnessctl freetype2 fish git hyprlock hyprpaper waybar ttf-font-awesome otf-font-awesome ttf-jetbrains-mono pavucontrol feh ranger thunar meson nwg-look papirus-icon-theme fastfetch file powerline-fonts inetutils bluez bluez-utils blueman telegram-desktop vlc fastfetch nerd-fonts grim slurp pipewire font-manager swaybg nftables
+sudo pacman -S wofi kitty swaync brightnessctl freetype2 fish git hyprlock hyprpaper waybar ttf-font-awesome otf-font-awesome ttf-jetbrains-mono pavucontrol feh ranger thunar meson nwg-look papirus-icon-theme fastfetch file powerline-fonts inetutils bluez bluez-utils blueman telegram-desktop vlc fastfetch nerd-fonts grim slurp pipewire font-manager swaybg nftables
 ````
 ttf-nerd-fonts-symbols ttf-nerd-symbols-mono что то из этого я хуй знает
 ````
