@@ -1,6 +1,8 @@
 its my hyprland config im currently working at it as a linux newbie
 
 used ItRoy's configs as example
+
+currently working on it and im dolboyob so dont use it ok
 ````
 git clone https://github.com/Cameroonets/CameroonetsHyprland.git
 cd CameroonetsHyprland
