@@ -1,0 +1,141 @@
+{
+  "position": "top",
+    "margin-top" : 2,
+    "margin-left": 5,
+    "margin-right": 5,
+    "height" : 27,
+    "modules-left": [
+      "hyprland/workspaces",
+      "tray",
+      "hyprland/window"
+    ],
+    "modules-center": [
+	"clock",
+	"custom/swaync"
+    ],
+    "modules-right": [
+    "hyprland/language",
+    "pulseaudio",
+    "battery",
+    "network",
+    "custom/terminal",
+    "custom/thunar",
+    "custom/browser",
+    "custom/exit"
+    ],
+       "hyprland/window": {
+      "format": "{}",
+      "max-length": 35,
+      "rewrite": {
+        "": "Hyprland"
+      },
+      "separate-outputs": true
+    },
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "format-icons": {
+	"1": "",
+	"2": "",
+	"3": "",
+        "4": "",
+        "5": "",
+        "active": "",
+	"urgent": "",
+	"default": "",
+      },
+      "on-click": "activate",
+      "sort-by-number": true,
+      "persistent-workspaces": {
+        "*": 5,
+        "HDMI-A-1": 5
+      },
+    "tray": {
+      "icon-size": 10,
+      "spacing": 10
+      },
+    },
+    "clock": {
+      "format": "{:%I:%M %p}",
+      "tooltip": false, 
+      "format-alt": "{:%Y/%m/%d}"
+    },
+    "cpu": {
+      "format": " {usage}%",
+      "tooltip": false
+    },
+    "memory": {
+      "format": "{}% "
+    },
+    "network": {
+      "format-wifi": "  {signalStrength}%",
+      "format-ethernet": "{cidr} ",
+      "tooltip-format": "{ifname} via {gwaddr} ",
+      "format-linked": "{ifname} (No IP) ",
+      "format-disconnected": " ⚠ ",
+      "on-click": "kitty -e nmtui"
+    },
+    "battery": {
+      "states": {
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{icon}  {capacity}%",
+      "format-full": "{icon}  {capacity}%",
+      "format-charging": "  {capacity}%",
+      "format-plugged": "  {capacity}%",
+      "format-alt": "{time} {icon}",
+      "format-icons": ["", "", "", "", ""]
+    },
+    "hyprland/language": {
+    "format": "{short}",
+    "rewrite": {
+        "Russian": "RU",
+        "English (US)": "ENG"
+    }
+    },
+    "pulseaudio": {
+      "format": "{icon} {volume}%",
+      "format-bluetooth": "{volume}% {icon} {format_source}",
+      "format-bluetooth-muted": " {icon} {format_source}",
+      "format-muted": " {format_source}",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+      },
+      "on-click": "pavucontrol"
+    },
+    "hyprland/window": {
+        "format": {},
+        "max-length": 12,
+    },
+    "custom/exit": {
+        "format": " ",
+        "on-click": "wlogout",
+        "tooltip": false
+    },
+    "custom/terminal": {
+        "format": " ",
+        "on-click": "kitty",
+        "tooltip": false
+    },
+    "custom/browser": {
+        "format": "󰈹 ",
+        "on-click": "firefox",
+        "tooltip": false
+    },
+    "custom/thunar": {
+        "format": " ",
+        "on-click": "thunar",
+        "tooltip": false
+    },
+    "custom/swaync": {
+        "format": "",
+	"on-click": "swaync-client -t -sw",
+        "tooltip": false
+    },
+}
