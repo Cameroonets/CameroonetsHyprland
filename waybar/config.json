@@ -55,7 +55,8 @@
       },
     },
     "clock": {
-      "format": "{:%I:%M %p}", 
+      "format": "{:%I:%M %p}",
+      "tooltip": false, 
       "format-alt": "{:%Y/%m/%d}"
     },
     "cpu": {
