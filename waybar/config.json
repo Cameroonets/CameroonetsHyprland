@@ -111,7 +111,7 @@
     },
     "hyprland/window": {
         "format": {},
-        "max-length": 12,
+        "max-length": 50,
     },
     "custom/exit": {
         "format": " ",
