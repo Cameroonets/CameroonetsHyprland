@@ -10,6 +10,7 @@
       "hyprland/window"
     ],
     "modules-center": [
+	"power-profiles-daemon",
 	"clock",
 	"custom/swaync"
     ],
@@ -112,6 +113,15 @@
     "hyprland/window": {
         "format": {},
         "max-length": 12,
+    },
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}",
+        "format-icons": {
+            "performance": "",
+            "balanced": " ",
+            "power-saver": "󰂄"
+        }
     },
     "custom/exit": {
         "format": " ",

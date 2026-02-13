@@ -107,6 +107,19 @@ button:hover {
   background: rgba(0, 0, 0, 0.5)
 }
 
+#power-profiles-daemon {
+  background: rgba(0, 0, 0, 0.8);
+  margin: 0 1px 0 1px;
+  min-width: 20px;
+  padding: 0 3px 0 3px;
+  border-radius: 18px;
+  transition: all 0.3s ease;
+}
+
+#power-profiles-daemon:hover {
+  background: rgba(255, 0, 0, 0.2)
+}
+
 #custom-exit {
   background: rgba(0, 0, 0, 0.8);
   margin: 0 3px 0 3px;
