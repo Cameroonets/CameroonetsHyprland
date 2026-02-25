@@ -1,9 +1,9 @@
 {
   "position": "top",
-    "margin-top" : 2,
-    "margin-left": 5,
-    "margin-right": 5,
-    "height" : 27,
+    "margin-top" : 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "height" : 29,
     "modules-left": [
       "hyprland/workspaces",
       "tray",
@@ -35,11 +35,6 @@
     "hyprland/workspaces": {
       "format": "{icon}",
       "format-icons": {
-	"1": "",
-	"2": "",
-	"3": "",
-        "4": "",
-        "5": "",
         "active": "",
 	"urgent": "",
 	"default": "",
@@ -124,22 +119,22 @@
         }
     },
     "custom/exit": {
-        "format": " ",
+        "format": "",
         "on-click": "wlogout",
         "tooltip": false
     },
     "custom/terminal": {
-        "format": " ",
+        "format": "",
         "on-click": "kitty",
         "tooltip": false
     },
     "custom/browser": {
-        "format": "󰈹 ",
+        "format": "󰈹",
         "on-click": "firefox",
         "tooltip": false
     },
     "custom/thunar": {
-        "format": " ",
+        "format": "",
         "on-click": "thunar",
         "tooltip": false
     },
